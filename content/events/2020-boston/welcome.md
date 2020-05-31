@@ -14,9 +14,13 @@ h1.welcome-page { text-transform: initial; }
 <div class="row">
   <div class="col-md-3">
     <div style="text-align:center;">{{< event_logo >}}</div>
-  	<div class="row">
-  	   <a href="https://assets.devopsdays.org/events/2020/boston/dodb-health-and-safety-update.pdf" target="blank" class="btn btn-info btn-block">DevOpsDays Boston Safety Update</a>
-  	</div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="alert alert-warning" role="alert">
+      Important information regarding coronavirus (COVID-19)
+    </div>
+    <p>Due to COVID-19 and the health risks of an in-person conference DevOpsDays Boston 2020 will now be a virtual event taking place on Sept 28, 2020. Rest assured that the talks, open spaces and discussions will be as great as ever. Please do continue to submit to our <a href="https://bit.ly/dodbos2020cfp">CFP</a> if you'd like to speak at the conference.</p>
   </div>
 
   <div class="col-md-6">
@@ -32,11 +36,11 @@ h1.welcome-page { text-transform: initial; }
       <div class="col-md-2"><strong>Propose</strong></div>
       <div class="col-md-8"><a href="https://bit.ly/dodbos2020cfp">Propose a talk!</a></div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-2"><strong>Register</strong></div>
       <div class="col-md-8"><a href="https://ti.to/devopsdaysbos/2020">Register to attend the conference!</a></div>
     </div>
-  	<!-- <div class="row">
+  	<div class="row">
   		<div class="col-md-2"><strong>Program</strong></div>
       <div class="col-md-8">View the {{< event_link page="program" text="program." >}}</div>
   	</div>
@@ -58,7 +62,7 @@ h1.welcome-page { text-transform: initial; }
       <div class="col-md-2">
         <strong>Slack</strong>
       </div>
-      <div class="col-md-8">Join <a href="http://bit.ly/bdo-slack" target="blank">Boston DevOps</a> Slack workspace.
+      <div class="col-md-8">Join <a href="http://bit.ly/bdo-slack" target="blank">Boston DevOps Slack</a> workspace.
       </div>
     </div>
     <!-- Twitter -->
